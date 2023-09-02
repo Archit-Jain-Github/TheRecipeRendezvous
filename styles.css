@@ -1,0 +1,128 @@
+/* default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: none;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+}
+/* header */
+header{
+    background-color: #FCD8D4;
+    text-align: center;
+    color: rgba(78, 78, 64, 0.815);
+    font-size: medium;
+    font-style: italic;
+    padding-top: 5px;
+    font-weight: 900;
+    overflow-x: none;
+}
+/* nav */
+nav{
+    list-style: none;
+    background-color: #F8E2CF;
+    font-size: x-large;
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    overflow-x: none;
+}
+nav>ul{
+    list-style: none;
+    align-items: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: none;
+}
+nav>ul>li>a>img{
+    height: 35px;
+    align-items: end;
+    overflow-x: none;
+}
+/* footer */
+footer{
+    margin: 0px;
+    padding-bottom: 20px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(180deg, #FBAB7E 50%, #F7CE68 100%);
+    color: black;
+    overflow-x: none;
+}
+/* main */
+main{
+    background-color: #FDF6F0;
+    overflow-x: none;
+}
+.content-box{
+    background-color: #fdeba1;
+    background-image: linear-gradient(0deg, #fdeba1 0%, #ffd7e6 100%);
+    width: 90%;
+    margin: auto;
+    border:2px solid black;
+    box-shadow: 3px 3px 30px black;
+    overflow-x: none;
+}
+h1{
+    font-size: x-large;
+    text-align: center;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: none;
+}
+h2{
+    font-size: large;
+    text-align: center;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: none;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    overflow-x: none;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: none;
+}
+.content{
+    margin-left: 40px;
+    overflow-x: none;
+}
+.card>img{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    height: 400px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    overflow-x: none;
+    transition: all 0.5s 0s;
+    -webkit-transition: all 0.5s 0s;
+    -moz-transition: all 0.5s 0s;
+    -ms-transition: all 0.5s 0s;
+    -o-transition: all 0.5s 0s;
+}
+img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
